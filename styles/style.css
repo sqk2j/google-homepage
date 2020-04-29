@@ -1,10 +1,141 @@
-.search-button{
-    width: 40px;
-    height: 36px;
-    cursor: pointer;
-    text-align: center;
-    border-radius: 0px 5px 5px;
-    font-size: 20px;
-    background: white;
-    color: gray
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+body {
+font-family: arial, sans-serif;
+font-size: small;
+width: 100%;
+margin: 0;
+min-width: 950px;
+color:#5f6368;
+}
+
+footer{
+position: fixed;
+bottom: 0;
+width: 100%;
+height: 46px;
+min-width:900px;
+}
+
+a{
+color: #5f6368;
+}
+ul {
+padding: 0;
+list-style-type: none;
+}
+
+li{
+padding: 0 8px;
+}
+
+a:link{
+text-decoration: none;
+}
+
+a:hover{
+text-decoration: underline
+}
+
+button{
+font-size: small;
+color: #5F6368;
+padding: 8px 16px;
+background-color: #f2f2f2;
+border: 1px solid #e4e4e4;
+margin-top:15px;
+margin-left:5px;
+margin-right: 5px;
+cursor: pointer;
+}
+
+.top-nav{
+display: flex;
+align-items: center;
+height: 46px;
+padding: 15px 15px 0px 15px;
+}
+
+.store{
+margin-right: auto;
+}
+
+.sign-in{
+background-color: #4285f4;
+padding: 8px 10px;
+text-decoration: none;
+}
+
+.sign-in a{
+color: white;
+font-weight: bold;
+}
+
+.bottom-nav{
+display: flex;
+align-items: center;
+height: 46px;
+padding: 10px 15px 10px 15px;
+border: 1px solid #e4e4e4;
+background-color: #f2f2f2;   
+}
+
+.how-search-works{
+margin-right: auto;
+}
+
+.flex-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height:360px;
+width: 100%;   
+}
+
+
+.search-bar{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+border: 1px solid #e4e4e4; 
+border-radius: 25px;
+width: 500px;
+height: 50px;
+}
+
+.magnifying-glass {
+font-size: x-small;
+cursor: pointer;
+background-color: white;
+border-radius: 50px;
+color: gray;
+border-style: none;
+padding: 0 0 0 15px;
+margin: 0;
+}
+
+.microphone{
+font-size: x-small;
+cursor: pointer;
+background-color: white;
+border-radius: 50px;
+border-style: none;
+padding: 0 15 0 0px;
+margin: 0;
+}
+
+#searcher{
+border-style: none;
+width: 450px;
+height: 40px;
+}
+.material-icons{
+border-style: none;
+background-color: white;
 }
